@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>리스트</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .main_menu>li {
+
+            width: 100px;
+            height: 60px;
+            background-color: chocolate;
+            float: left;
+            margin: 0 30px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 15px;
+            color: darkmagenta;
+
+        }
+
+        .main_menu>li:hover {
+            background-color: cornsilk;
+        }
+
+        .main_menu .sub {
+
+            display: none;
+        }
+
+        .main_menu li:hover .sub {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="main_menu">
+        <li>한국음식
+            <ul class="sub">
+                <li>김치찌개</li>
+                <li>갈비찜</li>
+                <li>갈비탕</li>
+            </ul>
+        </li>
+        <li>중국음식
+            <ul class="sub">
+                <li>짜장면</li>
+                <li>우동</li>
+                <li>짬뽕</li>
+            </ul>
+        </li>
+        <li>일본음식
+            <ul class="sub">
+                <li>우동</li>
+                <li>돈까지</li>
+                <li>함박스테이크</li>
+            </ul>
+        </li>
+
+    </ul>
+</body>
+</html>
